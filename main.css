@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    background: url('https://images.pexels.com/photos/209449/pexels-photo-209449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-attachment: fixed;
+    opacity:0.60;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color: rgb(255, 255, 255);
+}
+section{
+    width:80%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-shadow: 1px 1px rgb(211, 211, 211);
+    background-color: rgba(240, 220, 245, 0.144);
+    padding: 5%;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+th, tr, td{
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.76);
+}
+
+th{
+    background-color: rgba(100, 198, 237, 0.616);
+}
+
+.name{
+    background-color: #dda0dd96;
+    font-weight: bold;
+}
+
+#orderBY{
+    margin-top: 2%;
+    border: 0;
+    width: 10%;
+    padding: 10px;
+    background-color: cadetblue;
+    color: azure;
+    font-size: 18px;
+    text-shadow: 1px 2px gray;
+    border-radius: 8px;
+}
+
+#orderBY:hover{
+    background-color: rgba(52, 7, 63, 0.815);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+#link_maquetacion{
+    padding: 10px;
+    background-color: rgba(104, 42, 104, 0.548);
+    border: 2px solid rgb(34, 0, 34);
+    border-radius: 8px; 
+}
+
+#link_maquetacion:hover{
+    background-color: aqua;
+}
+a:hover{
+    color:rgb(58, 19, 19);
+}
+
